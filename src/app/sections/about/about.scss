@@ -1,0 +1,657 @@
+
+.about {
+  position: relative;
+
+  min-height: 100vh;
+
+  padding: 110px 30px 40px;
+
+  background: #0b1220;
+
+  color: #e2e8f0;
+
+  overflow: hidden;
+}
+
+
+/* ============================= */
+/* Page */
+/* ============================= */
+
+.about-page {
+  position: relative;
+
+  max-width: 1200px;
+
+  min-height: calc(100vh - 150px);
+
+  margin: 0 auto;
+
+  padding: 35px 45px 30px;
+
+  border: 1px solid rgba(148, 163, 184, 0.12);
+
+  background:
+    linear-gradient(
+      135deg,
+      rgba(15, 23, 42, 0.92),
+      rgba(7, 12, 24, 0.96)
+    );
+
+  box-shadow:
+    0 35px 100px rgba(0, 0, 0, 0.3);
+
+  overflow: hidden;
+}
+
+
+/* ============================= */
+/* Subtle Page Glow */
+/* ============================= */
+
+.about-page::before {
+  content: '';
+
+  position: absolute;
+
+  width: 500px;
+  height: 500px;
+
+  top: -250px;
+  right: -150px;
+
+  border-radius: 50%;
+
+  background: rgba(56, 189, 248, 0.06);
+
+  filter: blur(100px);
+
+  pointer-events: none;
+}
+
+
+/* ============================= */
+/* Header */
+/* ============================= */
+
+.page-header {
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding-bottom: 22px;
+
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.page-label {
+  display: flex;
+
+  gap: 10px;
+
+  color: #64748b;
+
+  font-size: 13px;
+  line-height: 1.4;
+
+  font-weight: 700;
+
+  letter-spacing: 2.5px;
+
+  text-transform: uppercase;
+}
+
+.page-label span:first-child {
+  color: #38bdf8;
+}
+
+.page-name {
+  color: #475569;
+
+  font-size: 12px;
+  line-height: 1.4;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+
+  text-transform: uppercase;
+}
+
+
+/* ============================= */
+/* Content */
+/* ============================= */
+
+.about-content {
+  position: relative;
+
+  display: grid;
+
+  grid-template-columns: 1.2fr 0.8fr;
+
+  gap: 70px;
+
+  align-items: center;
+
+  min-height: 650px;
+
+  padding: 55px 0;
+}
+
+
+/* ============================= */
+/* Main */
+/* ============================= */
+
+.about-main {
+  max-width: 700px;
+}
+
+
+/* ============================= */
+/* Senior Software Engineer */
+/* ============================= */
+
+.about .eyebrow {
+  margin: 0 0 22px !important;
+
+  color: #38bdf8 !important;
+
+  font-size: 22px !important;
+  line-height: 1.4 !important;
+
+  font-weight: 700 !important;
+
+  letter-spacing: 2.8px !important;
+
+  text-transform: uppercase;
+}
+
+
+/* ============================= */
+/* Main About Heading */
+/* ============================= */
+
+.about h1 {
+  margin: 0 0 32px;
+
+  color: #ffffff;
+
+  font-size: clamp(62px, 6.5vw, 82px);
+
+  line-height: 0.98;
+
+  letter-spacing: -4px;
+
+  font-weight: 800;
+}
+
+.about h1 span {
+  display: block;
+
+  background:
+    linear-gradient(
+      90deg,
+      #ffffff,
+      #38bdf8
+    );
+
+  -webkit-background-clip: text;
+
+  -webkit-text-fill-color: transparent;
+}
+
+
+/* ============================= */
+/* Lead Text */
+/* ============================= */
+
+.about-lead {
+  max-width: 680px;
+
+  margin: 0 0 28px;
+
+  color: #cbd5e1;
+
+  font-size: 20px;
+
+  line-height: 1.75;
+
+  font-weight: 400;
+}
+
+
+/* ============================= */
+/* Description */
+/* ============================= */
+
+.about-description {
+  max-width: 680px;
+
+  margin: 0 0 20px;
+
+  color: #8b9bb0;
+
+  font-size: 17px;
+
+  line-height: 1.8;
+
+  font-weight: 400;
+}
+
+
+/* ============================= */
+/* Highlights */
+/* ============================= */
+
+.about-highlights {
+  display: flex;
+
+  gap: 55px;
+
+  margin-top: 38px;
+
+  padding-top: 27px;
+
+  border-top: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.highlight {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 7px;
+}
+
+.highlight strong {
+  color: #38bdf8;
+
+  font-size: 28px;
+
+  line-height: 1.3;
+
+  font-weight: 700;
+}
+
+.highlight span {
+  color: #64748b;
+
+  font-size: 11px;
+
+  line-height: 1.4;
+
+  font-weight: 600;
+
+  letter-spacing: 1.2px;
+
+  text-transform: uppercase;
+}
+
+
+/* ============================= */
+/* Profile Card */
+/* ============================= */
+
+.profile-card {
+  position: relative;
+
+  padding: 32px;
+
+  border: 1px solid rgba(56, 189, 248, 0.16);
+
+  border-radius: 10px;
+
+  background:
+    rgba(7, 12, 24, 0.75);
+
+  box-shadow:
+    0 25px 70px rgba(0, 0, 0, 0.35);
+
+  backdrop-filter: blur(12px);
+
+  transition:
+    transform 0.35s ease,
+    border-color 0.35s ease,
+    box-shadow 0.35s ease;
+}
+
+.profile-card:hover {
+  transform: translateY(-5px);
+
+  border-color: rgba(56, 189, 248, 0.28);
+
+  box-shadow:
+    0 30px 80px rgba(0, 0, 0, 0.4);
+}
+
+
+/* ============================= */
+/* Profile Header */
+/* ============================= */
+
+.profile-header {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  padding-bottom: 22px;
+
+  margin-bottom: 5px;
+
+  border-bottom: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.profile-status {
+  display: flex;
+
+  align-items: center;
+
+  gap: 9px;
+
+  color: #64748b;
+
+  font-size: 12px;
+
+  line-height: 1.4;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.profile-status span {
+  width: 8px;
+  height: 8px;
+
+  flex-shrink: 0;
+
+  border-radius: 50%;
+
+  background: #22c55e;
+
+  box-shadow:
+    0 0 10px rgba(34, 197, 94, 0.7);
+}
+
+.profile-code {
+  color: #334155;
+
+  font-family: monospace;
+
+  font-size: 13px;
+}
+
+
+/* ============================= */
+/* Profile Rows */
+/* ============================= */
+
+.profile-row {
+  display: flex;
+
+  align-items: center;
+
+  justify-content: space-between;
+
+  gap: 20px;
+
+  padding: 19px 0;
+
+  border-bottom: 1px solid rgba(148, 163, 184, 0.08);
+}
+
+.profile-row:last-child {
+  border-bottom: none;
+}
+
+.profile-row span {
+  color: #64748b;
+
+  font-size: 15px;
+
+  line-height: 1.5;
+}
+
+.profile-row strong {
+  max-width: 60%;
+
+  color: #e2e8f0;
+
+  font-size: 15px;
+
+  line-height: 1.45;
+
+  font-weight: 600;
+
+  text-align: right;
+}
+
+
+/* ============================= */
+/* Profile Footer */
+/* ============================= */
+
+.profile-footer {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 8px;
+
+  margin-top: 20px;
+
+  padding-top: 20px;
+
+  border-top: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.profile-footer span {
+  color: #334155;
+
+  font-size: 10px;
+
+  line-height: 1.4;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.profile-footer strong {
+  color: #38bdf8;
+
+  font-family: monospace;
+
+  font-size: 11px;
+
+  line-height: 1.5;
+
+  letter-spacing: 0.5px;
+}
+
+
+/* ============================= */
+/* Page Footer */
+/* ============================= */
+
+.page-footer {
+  position: relative;
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 15px;
+
+  color: #334155;
+
+  font-size: 10px;
+
+  line-height: 1.4;
+
+  font-weight: 700;
+
+  letter-spacing: 2px;
+}
+
+.footer-line {
+  width: 80px;
+
+  height: 1px;
+
+  background: #1e293b;
+}
+
+
+/* ============================= */
+/* Tablet */
+/* ============================= */
+
+@media (max-width: 900px) {
+
+  .about {
+    padding: 100px 20px 30px;
+  }
+
+  .about-page {
+    padding: 30px;
+
+    min-height: auto;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+
+    gap: 50px;
+
+    min-height: auto;
+
+    padding: 60px 0;
+  }
+
+  .profile-card {
+    max-width: 600px;
+  }
+}
+
+
+/* ============================= */
+/* Mobile */
+/* ============================= */
+
+@media (max-width: 600px) {
+
+  .about {
+    padding: 90px 15px 20px;
+  }
+
+  .about-page {
+    padding: 22px;
+
+    min-height: auto;
+  }
+
+  .page-name {
+    display: none;
+  }
+
+  .about-content {
+    padding: 45px 0;
+  }
+
+
+  /* Senior Software Engineer */
+
+  .about .eyebrow {
+    margin-bottom: 17px !important;
+
+    font-size: 18px !important;
+
+    letter-spacing: 2px !important;
+  }
+
+
+  /* Main heading */
+
+  .about h1 {
+    margin-bottom: 27px;
+
+    font-size: clamp(48px, 13vw, 62px);
+
+    line-height: 1;
+
+    letter-spacing: -2.8px;
+  }
+
+
+  .about-lead {
+    font-size: 18px;
+
+    line-height: 1.7;
+  }
+
+
+  .about-description {
+    font-size: 15px;
+
+    line-height: 1.75;
+  }
+
+
+  .about-highlights {
+    gap: 28px;
+
+    margin-top: 30px;
+
+    padding-top: 22px;
+  }
+
+  .highlight strong {
+    font-size: 23px;
+  }
+
+  .highlight span {
+    font-size: 9px;
+
+    letter-spacing: 0.8px;
+  }
+
+
+  .profile-card {
+    padding: 22px;
+  }
+
+  .profile-row {
+    align-items: flex-start;
+
+    padding: 17px 0;
+  }
+
+  .profile-row span {
+    font-size: 13px;
+  }
+
+  .profile-row strong {
+    max-width: 55%;
+
+    font-size: 13px;
+  }
+
+  .profile-status {
+    font-size: 10px;
+
+    letter-spacing: 1.5px;
+  }
+
+  .profile-footer strong {
+    font-size: 9px;
+  }
+}
