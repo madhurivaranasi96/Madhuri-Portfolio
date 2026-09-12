@@ -97,7 +97,9 @@
 
 .theme-toggle {
   margin-left: 28px;
-  padding: 8px 10px;
+  width: 38px;
+  height: 38px;
+  padding: 0;
   border: 1px solid rgba(56, 189, 248, 0.45);
   border-radius: 999px;
   background: transparent;
@@ -113,6 +115,12 @@
   background: #38bdf8;
   color: #07111f;
   transform: translateY(-1px);
+}
+
+.theme-icon {
+  display: block;
+  font-size: 18px;
+  line-height: 1;
 }
 
 

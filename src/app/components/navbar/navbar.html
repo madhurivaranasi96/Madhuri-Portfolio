@@ -53,7 +53,7 @@
     (click)="toggleTheme()"
     [attr.aria-label]="isLightTheme ? 'Switch to dark theme' : 'Switch to light theme'"
     [attr.aria-pressed]="isLightTheme">
-    <span aria-hidden="true">{{ isLightTheme ? 'DARK' : 'LIGHT' }}</span>
+    <span class="theme-icon" aria-hidden="true">{{ isLightTheme ? '☾' : '☀' }}</span>
   </button>
 
 </nav>
