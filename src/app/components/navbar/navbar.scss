@@ -95,6 +95,26 @@
   transform: translateY(-1px);
 }
 
+.theme-toggle {
+  margin-left: 28px;
+  padding: 8px 10px;
+  border: 1px solid rgba(56, 189, 248, 0.45);
+  border-radius: 999px;
+  background: transparent;
+  color: #38bdf8;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.12em;
+  cursor: pointer;
+  transition: background 0.25s ease, color 0.25s ease, transform 0.25s ease;
+}
+
+.theme-toggle:hover {
+  background: #38bdf8;
+  color: #07111f;
+  transform: translateY(-1px);
+}
+
 
 /* =========================
    Navigation Number
@@ -182,6 +202,10 @@
 
   .nav-links {
     display: none;
+  }
+
+  .theme-toggle {
+    margin-left: 16px;
   }
 
 }

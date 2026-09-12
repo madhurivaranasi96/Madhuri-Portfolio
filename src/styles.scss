@@ -54,3 +54,210 @@ button {
 ::-webkit-scrollbar-thumb:hover {
   background: #38bdf8;
 }
+
+body.light-theme {
+  background: #e9edf3;
+  color: #172033;
+}
+
+body.light-theme .navbar {
+  background: rgba(233, 237, 243, 0.96);
+  border-bottom-color: rgba(30, 41, 59, 0.14);
+}
+
+body.light-theme .logo,
+body.light-theme .nav-links button:hover {
+  color: #172033;
+}
+
+body.light-theme .nav-links button {
+  color: #334155 !important;
+  font-weight: 700;
+}
+
+body.light-theme .nav-links button:hover,
+body.light-theme .logo:hover,
+body.light-theme .theme-toggle {
+  color: #0284c7 !important;
+}
+
+body.light-theme .theme-toggle:hover {
+  color: #ffffff;
+}
+
+body.light-theme app-home,
+body.light-theme app-about,
+body.light-theme app-experience,
+body.light-theme app-projects,
+body.light-theme app-skills,
+body.light-theme app-achievements,
+body.light-theme app-contact,
+body.light-theme .home,
+body.light-theme .about,
+body.light-theme .experience,
+body.light-theme .projects,
+body.light-theme .skills,
+body.light-theme .achievements,
+body.light-theme .contact {
+  background: #e9edf3;
+  color: #172033;
+}
+
+body.light-theme .hero,
+body.light-theme .about-page,
+body.light-theme .experience-page,
+body.light-theme .projects-page,
+body.light-theme .skills,
+body.light-theme .achievements-page,
+body.light-theme .contact-page {
+  background: #e9edf3 !important;
+  color: #172033 !important;
+}
+
+body.light-theme .hero *,
+body.light-theme .about-page *,
+body.light-theme .experience-page *,
+body.light-theme .projects-page *,
+body.light-theme .skills *,
+body.light-theme .achievements-page *,
+body.light-theme .contact-page * {
+  color: #263246;
+}
+
+body.light-theme .hero h1,
+body.light-theme .hero h2,
+body.light-theme .about-page h1,
+body.light-theme .about-page h2,
+body.light-theme .about-page h3,
+body.light-theme .experience-page h1,
+body.light-theme .experience-page h2,
+body.light-theme .experience-page h3,
+body.light-theme .projects-page h1,
+body.light-theme .projects-page h2,
+body.light-theme .projects-page h3,
+body.light-theme .skills h2,
+body.light-theme .achievements-page h1,
+body.light-theme .contact-page h1,
+body.light-theme .contact-page h2,
+body.light-theme .contact-page h3,
+body.light-theme .profile-number,
+body.light-theme .profile-card strong,
+body.light-theme .experience-card h2,
+body.light-theme .project-card h2 {
+  color: #172033 !important;
+}
+
+body.light-theme .hero h1 span {
+  background: linear-gradient(90deg, #172033, #0284c7) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+body.light-theme .ai-block h3 {
+  background: linear-gradient(90deg, #172033, #0284c7) !important;
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent !important;
+}
+
+body.light-theme .hero h1,
+body.light-theme .hero h2,
+body.light-theme .about h1,
+body.light-theme .experience h1,
+body.light-theme .projects h1,
+body.light-theme .skills h2,
+body.light-theme .achievements h1,
+body.light-theme .contact h1,
+body.light-theme .profile-number,
+body.light-theme .profile-card strong,
+body.light-theme .experience-card h2,
+body.light-theme .project-card h2 {
+  color: #172033 !important;
+}
+
+body.light-theme .hero-description,
+body.light-theme .about-lead,
+body.light-theme .about-description,
+body.light-theme .experience-lead,
+body.light-theme .experience-description,
+body.light-theme .projects-lead,
+body.light-theme .achievements-lead,
+body.light-theme .contact-lead,
+body.light-theme .experience-details p,
+body.light-theme .project-description,
+body.light-theme .project-subtitle,
+body.light-theme .project-contribution p,
+body.light-theme .achievement-main p,
+body.light-theme .project-info strong,
+body.light-theme .visual-card > p,
+body.light-theme .profile-stats span,
+body.light-theme .profile-row span,
+body.light-theme .profile-footer span {
+  color: #526078 !important;
+}
+
+body.light-theme .visual-card,
+body.light-theme .profile-card,
+body.light-theme .experience-card,
+body.light-theme .project-card,
+body.light-theme .skill-block,
+body.light-theme .achievement-item,
+body.light-theme .contact-item {
+  background: #f8fafc !important;
+  border-color: rgba(30, 41, 59, 0.14) !important;
+  box-shadow: 0 24px 60px rgba(30, 41, 59, 0.1) !important;
+}
+
+body.light-theme .technology-row span,
+body.light-theme .project-technologies span,
+body.light-theme .skill-tags span {
+  background: #e8f5fb !important;
+  border-color: rgba(2, 132, 199, 0.25) !important;
+  color: #0369a1 !important;
+}
+
+body.light-theme .eyebrow,
+body.light-theme .page-label,
+body.light-theme .page-name,
+body.light-theme .section-label,
+body.light-theme .project-label,
+body.light-theme .project-domain,
+body.light-theme .experience-date,
+body.light-theme .project-contribution span,
+body.light-theme .profile-code,
+body.light-theme .profile-status,
+body.light-theme .detail-number,
+body.light-theme .contact-value,
+body.light-theme .contact-value:hover {
+  color: #0369a1 !important;
+}
+
+body.light-theme .primary-btn,
+body.light-theme .primary-btn span,
+body.light-theme .status-dot,
+body.light-theme .profile-status span,
+body.light-theme .experience-marker span {
+  color: #ffffff !important;
+}
+
+body.light-theme .secondary-btn,
+body.light-theme .secondary-btn:hover {
+  background: #ffffff !important;
+  border-color: rgba(30, 41, 59, 0.25) !important;
+  color: #172033 !important;
+}
+
+body.light-theme input,
+body.light-theme textarea,
+body.light-theme select {
+  background: #ffffff;
+  color: #172033;
+  border-color: rgba(30, 41, 59, 0.2);
+}
+
+body.light-theme ::-webkit-scrollbar-track {
+  background: #e8edf5;
+}
+
+body.light-theme ::-webkit-scrollbar-thumb {
+  background: #b5c0d2;
+}

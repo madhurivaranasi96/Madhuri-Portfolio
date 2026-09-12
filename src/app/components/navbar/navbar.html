@@ -47,4 +47,13 @@
 
   </div>
 
+  <button
+    class="theme-toggle"
+    type="button"
+    (click)="toggleTheme()"
+    [attr.aria-label]="isLightTheme ? 'Switch to dark theme' : 'Switch to light theme'"
+    [attr.aria-pressed]="isLightTheme">
+    <span aria-hidden="true">{{ isLightTheme ? 'DARK' : 'LIGHT' }}</span>
+  </button>
+
 </nav>
